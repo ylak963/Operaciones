@@ -9,15 +9,15 @@ public class Operaciones1 {
 		//double cociente;
 		
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("Escribe el primer número:");
+		System.out.println("Escribe el primer nÃºmero:");
 		num1=teclado.nextInt();
 		
-		System.out.println("Escribe el segun número:");
+		System.out.println("Escribe el segun nÃºmero:");
 		num2=teclado.nextInt();
 		
-		System.out.println("La suma de los dos números es:"+(num1+num2)+","+" "+
-				 "La recta de los dos numeros es:" +(num1-num2)+","+" "+ "El producto de los dos números es:"+(num1*num2)+
-				","+" "+ "El cociente de los dos números es:"+(num1/num2)+".");
+		System.out.println("La suma de los dos nÃºmeros es:"+(num1+num2)+","+" "+
+				 "La recta de los dos numeros es:" +(num1-num2)+","+" "+ "El producto de los dos nÃºmeros es:"+(num1*num2)+
+				","+" "+ "El cociente de los dos nÃºmeros es:"+(num1/num2)+".");
 		
 		teclado.close();
 		if(num2!=0) {
@@ -27,6 +27,7 @@ public class Operaciones1 {
 		else {
 			System.out.println("El numero no puede ser 0");
 		}
+		//
 	}
 
 }
